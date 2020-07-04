@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading.Tasks;
-using API.Models;
 using API.Services;
 using Microsoft.AspNetCore.Mvc;
 

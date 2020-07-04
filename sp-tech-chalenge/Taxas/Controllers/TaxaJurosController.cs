@@ -12,12 +12,6 @@ namespace Taxas.Controllers
     public class TaxaJurosController : ControllerBase
     {
 
-        private readonly ILogger<TaxaJurosController> _logger;
-            
-        public TaxaJurosController(ILogger<TaxaJurosController> logger)
-        {
-            _logger = logger;
-        }
         /// <summary>
         /// Método que retorna uma taxa de juros padrão.
         /// </summary>
