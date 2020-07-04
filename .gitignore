@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/sp-tech-chalenge/.vs
+/sp-tech-chalenge/API/bin
+/sp-tech-chalenge/Taxas/bin
+/sp-tech-chalenge/Taxas/obj
