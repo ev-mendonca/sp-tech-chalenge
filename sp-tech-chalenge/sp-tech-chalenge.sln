@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxas", "Taxas\Taxas.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{3563E5C9-61C7-4B23-9763-D33CF9C77248}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Test", "API.Test\API.Test.csproj", "{3CDA731F-465C-4581-A67A-EE9D53CBD2C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3563E5C9-61C7-4B23-9763-D33CF9C77248}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3563E5C9-61C7-4B23-9763-D33CF9C77248}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3563E5C9-61C7-4B23-9763-D33CF9C77248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDA731F-465C-4581-A67A-EE9D53CBD2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDA731F-465C-4581-A67A-EE9D53CBD2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDA731F-465C-4581-A67A-EE9D53CBD2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDA731F-465C-4581-A67A-EE9D53CBD2C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
