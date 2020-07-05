@@ -58,7 +58,11 @@ namespace API
             });
 
             app.UseSwagger();
-            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v1/swagger.json", ""));
+            app.UseSwaggerUI(options =>
+            {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "");
+                options.RoutePrefix = "";
+            });
         }
     }
 }

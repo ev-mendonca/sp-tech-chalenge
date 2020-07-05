@@ -5,5 +5,12 @@ namespace API.Configuration
     {
         public string Name { get; set; }
         public string Url { get; set; }
+
+        public Endpoint(){}
+        public Endpoint(string url)
+        {
+            Url = url;
+        }
+        
     }
 }
