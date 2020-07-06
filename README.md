@@ -18,8 +18,8 @@ Caso tenha a necessidade de gerar sua propria imagem, basta gerar o publish das 
 
 Se quiser apenas utilizar as aplicações em Docker, pode baixar as imagens que estão disponíveis no dockerHub, seguindo os comandos abaixo.
 
-API: docker pull evmendonca/api_img
-Taxa: docker pull evmendonca/taxas_img
+* API: docker pull evmendonca/api_img
+* Taxa: docker pull evmendonca/taxas_img
 
 Para utilizar as imagens, segue um exemplo abaixo:
 
